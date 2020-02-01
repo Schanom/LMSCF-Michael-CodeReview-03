@@ -1,0 +1,48 @@
+team = [{
+       "firstName": "Tom",
+       "lastName": "Hanks",
+       "emailAddress": "tom.h@gmail.com",
+       "jobTitleName": "Sewage cleaner",
+       "salary": "5000",
+       "photo": "<img width=100% src=Images/Team/tom.jpg>"
+},
+{
+       "firstName": "Brad",
+       "lastName": "Pitt",
+       "emailAddress": "brad.p@gmail.com",
+       "jobTitleName": "Police Officer",
+       "salary": "1300",
+       "photo": "<img width=100% src=Images/Team/brad.jpg>"
+},
+{
+       "firstName": "Meryl",
+       "lastName": "Streep",
+       "emailAddress": "m.streep@gmail.com",
+       "jobTitleName": "Ice fisher",
+       "salary": "4380",
+       "photo": "<img width=100% src=Images/Team/meryl.jpg>"
+},
+{
+       "firstName": "Morgan",
+       "lastName": "Freeman",
+       "emailAddress": "i.am.god@gmail.com",
+       "jobTitleName": "God",
+       "salary": "666",
+       "photo": "<img width=100% src=Images/Team/morgan.jpg>"
+},
+{
+       "firstName": "Megan",
+       "lastName": "Fox",
+       "emailAddress": "m.fox@gmail.com",
+       "jobTitleName": "unemployed",
+       "salary": "1",
+       "photo": "<img width=100% src=Images/Team/megan.jpg>"
+},
+{
+       "firstName": "Samuel",
+       "lastName": "Jackson",
+       "emailAddress": "motherfucker@gmail.com",
+       "jobTitleName": "rightous man",
+       "salary": "9153",
+       "photo": "<img width=100% src=Images/Team/samuel.jpg>"
+}]

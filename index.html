@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS\style.css">
+	<title>Car Insurance</title>
+</head>
+<body>
+	<div class="Container">
+		<header>	
+			<div id="withlogo">
+				<img id="insuranceCF" src="Images\logo.png" alt="CodeFactory">
+				<img class="mobilehide" src="Images\banner-1.png" alt="Full Stack Web Developer">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="team.html" title="Team">Team</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="traffic">
+			<div id="positioning">
+				<img id="light" src="Images\traffic-332857_1920.jpg">
+				<div id="schweden">
+					<h2>Car Insurance</h2>
+				</div>	
+				<div id="greyarea">
+					<h1 align="center">Great coverage begins <br> with a custom quote</h1>
+					<div id="boxcontent">
+						<div id="contentrow1">
+							<div>
+								<label>Your name:</label><br>
+								<input type="text" id="ownerName"><br>
+							</div>
+							<div>
+								<label>Age:</label><br>
+								<input type="number" id="carAge">
+							</div>
+						</div>
+						<div id="contentrow2">
+							<div>
+								<span style="color: red !important; display: inline; float: none;">*</span>
+								<label for="country">Country</label><br>
+								<select id="country" name="country">
+									<option value="100">Austria</option>
+									<option value="150">Hungary</option>
+									<option value="180">Greece</option>
+								</select>
+							</div>
+							<div>
+								<label>Horsepower of your car:</label><br>
+								<input type="number" id="horsePower">
+							</div>
+						</div>
+					</div><br>
+					<div id="calculate">
+						<button id="calculateButton" onclick="calculateInsurancePerCountry()">Calculate</button>
+						<h1 id="result"></h1>
+					</div>
+				</div>
+			</div>
+			<div id="greyboxtext">
+				<p><p id="toprow">Un-complicating car coverage</p>Understanding your coverage options shouldnt be so hard.<br> We'll guide 
+					you through available coverage types,<br>starting with who and what is covered.</p>
+			</div>
+		</div>
+		<div id="Boxarea">
+			<div class="Boxes">
+				<p class="H3">What comes standard <br></p>
+				<p>The coverage you need</p><br>
+				<p class="Boxtext"><span><img src="Images\Tick.png"></span> Bodily Injury Liability</p>
+				<p class="Boxtext"><span><img src="Images\Tick.png"></span> Property Damage</p>
+				<p class="Boxtext"><span><img src="Images\Tick.png"></span> Medical Payments</p>
+				<hr>
+				<p class="P3"><b>Benefits</b> <br></p>
+				<p>12-month rate guarantee | 24/7 customer <br>
+					service | Lifetime Repair Guarantee</p>
+			</div>
+			<div class="Boxes">
+				<p class="H3">Add-on protection & coverage</p>
+				<p>For more peace of mind</p>
+				<br>
+				<p class="Boxtext"><span><img src="Images\Tick.png"></span> Better Car Replacement</p>
+				<p class="Boxtext"><span><img src="Images\Tick.png"></span> Towing & Labor</p>
+				<p class="Boxtext"><span><img src="Images\Tick.png"></span> Rental Car Coverage</p>
+				<hr>
+				<p class="P3"><b>Earned Benefits</b><br></p>
+				<p>Accident Forgiveness <sup>1</sup> | New Car <br>
+					Replacement <sup>TM</sup></p>	
+				</div>	
+			</div>
+			<footer>
+				<div id="footer">
+					<nav id="nav1">
+						<ul>
+							<li><a href="index.html" title="Home">Home</a></li>
+							<li><a href="team.html" title="Team">Team</a></li>
+						</ul>
+					</nav>
+					<div id="logo5" align="right">
+						<img class="mobilehide2" src="Images\logo-inv.png" alt="CodeFactory">
+					</div>
+					<p class="name">
+						Michael Schano - CodeFactory 2020
+					</p>
+				</div>
+			</footer>
+		</div>
+		<script type="text/javascript" src="Javascript\scripts.js"></script> 
+	</body>
+	</html>

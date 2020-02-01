@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS\style.css">
+    <title>Car Insurance</title>
+</head>
+<body>
+	<header>	
+		<div id="withlogo">
+		<img id="insuranceCF" src="Images\logo.png" alt="CodeFactory">
+		<img class="mobilehide" src="Images\banner-1.png" alt="Full Stack Web Developer">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="team.html" title="Team">Team</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<script type="text/javascript" src="JSON\team.json"></script>
+	<script>
+		var i = 0
+    for (i = 0; i < team.length; i++) {
+        document.writeln("<tr>");
+        document.writeln("<table border='1' width=400 >");
+        document.writeln("<tr><td><b>First Name</b></td><td width=220>" + team[i].firstName + "</td></tr>");
+        document.writeln("<tr><td><b>Last Name</b></td><td width=220>" + team[i].lastName + "</td></tr>");
+        document.writeln("<tr><td><b>E-mail</b></td><td width=220>" + team[i].emailAddress + "</td></tr>");
+        document.writeln("<tr><td><b>Job Title</b></td><td width=220>" + team[i].jobTitleName + "</td></tr>");
+        document.writeln("<tr><td><b>Salary</b></td><td width=220>" + team[i].salary + "</td></tr><br>");
+      	document.writeln("<tr><td>IMG</td><td>" + team[i].photo + "</td></tr><br>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+    }
+	</script>
+ <footer>
+	 	<div id="footer">
+		<nav id="nav1">
+			<ul>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="team.html" title="Team">Team</a></li>
+			</ul>
+		</nav>
+	<div id="logo5" align="right">
+		<img class="mobilehide2" src="Images\logo-inv.png" alt="CodeFactory">
+	</div>
+	<p class="name">
+		Michael Schano - CodeFactory 2020
+	</p>
+	</div>
+</footer>
+</body>
+</html>
